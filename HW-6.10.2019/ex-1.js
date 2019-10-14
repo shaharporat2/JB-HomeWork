@@ -30,4 +30,22 @@ function ex1(numArray){
     }
 }
 
+let timesChange = 0;
+let lastColor = "#ffff00";
+let currColor = "";
+
+function delayChange(){
+    timesChange += 1;
+
+    setTimeout(function(){
+        currColor = document.getElementById("color").value;
+         alert("number of changes: " + timesChange+ " last color was: " + lastColor + " current color is: " + currColor ); 
+        
+         lastColor = document.getElementById("color").value;
+        }, 5000);
+
+
+
+}
+
 console.log(ex1(numArray));
