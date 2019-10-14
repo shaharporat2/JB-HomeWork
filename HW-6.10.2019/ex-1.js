@@ -1,9 +1,9 @@
 
 //Stub section
 //const numArray = [1,2,0];
-//const numArray = [3,"sds",4,"sdsd",1,-1];
+const numArray = [3,"sds",4,"sdsd",1,-1];
 //const numArray = [-1,-2,-3,-4];
-const numArray = ['A', 'B', "shsh"]
+//const numArray = ['A', 'B', "shsh"]
 
 
 
